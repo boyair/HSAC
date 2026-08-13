@@ -1,4 +1,4 @@
-Shell = "otter" -- options: "noctalia", "otter"
+Shell = "otter" -- options: "noctalia", "otter", "dms"
 MainMod = "SUPER" -- main modifier key (for shortcuts)
 
 -- monitor names
@@ -18,7 +18,7 @@ end
 
 hl.config({
     render = {
-        direct_scanout = true
+        direct_scanout = false
     }
 })
 hl.config({

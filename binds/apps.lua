@@ -1,9 +1,9 @@
-
 local browser = "firefox"
 local terminal = "cosmic-term"
 local file_manager = "cosmic-files"
-local system_monitor = "shell" -- use "shell" for shell provided system monitor (not available for noctalia)
+local system_monitor = "otter-monitor" -- use "shell" or "" for shell provided system monitor (not available for noctalia)
 
+-- assign shell specific system monitor
 if system_monitor == "shell" or system_monitor == "" then
     if Shell == "dms" then
         system_monitor =  "dms ipc call processlist focusOrToggle"
